@@ -15,10 +15,9 @@ A modern and responsive Finance Dashboard to track income, expenses, and balance
 - JavaScript  
 - Chart.js  
 
-## 🌐 Live Demo
-https://shafnamh.github.io/finance-dashboard/
 
-## 📎 Codepen
+## 🌐 Live Demo
+📎 Codepen
 Original URL: [https://codepen.io/SHAFNA-M-H/pen/wBzjLgW](https://codepen.io/SHAFNA-M-H/pen/wBzjLgW).
 
 ---
