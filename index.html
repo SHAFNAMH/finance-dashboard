@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="container">
+
+  <!-- Header -->
+ <div class="header">
+  <div>
+    <h1 class="title">Finance Dashboard</h1>
+    <p class="subtitle">Track your income & expenses</p>
+  </div>
+
+  <select id="role">
+    <option>Viewer</option>
+    <option>Admin</option>
+  </select>
+</div>
+  <!-- Cards -->
+  <div class="cards">
+    <div class="card">Balance <b id="balance"></b></div>
+    <div class="card income">Income <b id="income"></b></div>
+    <div class="card expense">Expense <b id="expense"></b></div>
+  </div>
+
+  <!-- Charts -->
+  <div class="charts">
+    <canvas id="lineChart"></canvas>
+    <canvas id="pieChart"></canvas>
+  </div>
+
+  <!-- Search -->
+  <input type="text" id="search" placeholder="Search transactions...">
+
+  <!-- Table -->
+  <div class="table">
+    <h3>Transactions</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Amount</th>
+          <th>Category</th>
+          <th>Type</th>
+          <th id="actionHead" style="display:none;">Action</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </div>
+
+  <!-- Insights -->
+  <div class="insights">
+    <h3>Insights</h3>
+    <p id="insight1"></p>
+    <p id="insight2"></p>
+  </div>
+
+</div>
+    <script src='https://cdn.jsdelivr.net/npm/chart.js'></script><script  src="./script.js"></script>
+
+  </body>
+  
+</html>

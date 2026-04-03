@@ -1,0 +1,85 @@
+body {
+  font-family: Arial;
+  background: #f8fafc;
+  margin: 0;
+}
+
+.container {
+  padding: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 20px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: gray;
+  margin: 0;
+}
+.cards {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.income { border-left: 4px solid #4ade80; }
+.expense { border-left: 4px solid #f87171; }
+
+.charts canvas {
+  width: 100% !important;
+  height: 250px !important;
+  background: white;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.table, .insights {
+  background: white;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  font-size: 14px;
+}
+
+button {
+  background: #60a5fa;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  .cards {
+    flex-direction: column;
+  }
+}
